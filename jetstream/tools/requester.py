@@ -29,10 +29,10 @@ _PORT = flags.DEFINE_string("port", "9000", "port to ping")
 _SESSION_CACHE = flags.DEFINE_string(
     "session_cache", "", "Location of any pre-cached results"
 )
-_TEXT = flags.DEFINE_string("text", "Today is a good day", "The message")
+_TEXT = flags.DEFINE_string("text", "I'm speaking at the Google Cloud Summit today.", "The message")
 _PRIORITY = flags.DEFINE_integer("priority", 0, "Message priority")
 _MAX_TOKENS = flags.DEFINE_integer(
-    "max_tokens", 3, "Maximum number of output/decode tokens of a sequence"
+    "max_tokens", 35, "Maximum number of output/decode tokens of a sequence"
 )
 _TOKENIZER = flags.DEFINE_string(
     "tokenizer",
